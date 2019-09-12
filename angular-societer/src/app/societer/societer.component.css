@@ -55,15 +55,52 @@ table thead th:nth-child(3){
     flex-flow: row wrap;
     align-items: center;
     margin: 5px;
-    border: 1px solid #ccc;
-    
     padding: 10px;
- position: absolute;
+    border: 1px solid #ccc; 
+    position: absolute;
   
   }
-
   .form-inline input{
-      margin: 0px 0px 0px 5px;
+    margin: 0px 0px 0px 5px;
+}
+
+  .raison-sociale {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 5px 5px 5px 300px ;
+    padding: 10px;
+   
+  
   }
+  .raison-sociale input {  
+    margin: 0px 0px 0px 10px ;
+  }
+  .nom-abreger {
+    display: flex;
+    flex-flow: row wrap;
+   /* align-items: center;*/
+    margin: 0px 0px 0px 300px ;
+    padding: 10px;
+  }
+ .nom-abreger input { 
+   margin: 0px 0px 0px 10px ;
+   
+  }
+
+  .societer-groupe {
+    display: flex;
+    flex-flow: row wrap;
+   /* align-items: center;*/
+    margin: 0px 0px 0px 300px ;
+    padding: 10px;
+  }
+ .societer-groupe input { 
+   margin: 0px 0px 0px 10px ;
+   
+  }
+  
+
+
 
   

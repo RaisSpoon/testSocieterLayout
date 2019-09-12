@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-societer": {
+    "angular-material-demo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-societer",
+            "outputPath": "dist/angular-material-demo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-societer:build"
+            "browserTarget": "angular-material-demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-societer:build:production"
+              "browserTarget": "angular-material-demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-societer:build"
+            "browserTarget": "angular-material-demo:build"
           }
         },
         "test": {
@@ -112,16 +112,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-societer:serve"
+            "devServerTarget": "angular-material-demo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-societer:serve:production"
+              "devServerTarget": "angular-material-demo:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular-societer"
+  "defaultProject": "angular-material-demo"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "angular-societer",
+  "name": "angular-material-demo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,8 +11,8 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^8.2.6",
-    "@angular/cdk": "^8.2.0",
+    "@angular/animations": "~8.2.0",
+    "@angular/cdk": "~8.2.0",
     "@angular/common": "~8.2.0",
     "@angular/compiler": "~8.2.0",
     "@angular/core": "~8.2.0",
