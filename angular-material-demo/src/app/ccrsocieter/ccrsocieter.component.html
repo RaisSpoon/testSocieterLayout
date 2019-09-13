@@ -1,0 +1,60 @@
+<header>
+        <button mat-button [matMenuTriggerFor]="fichierMenu">Fichier</button>
+        <mat-menu #fichierMenu="matMenu" yPosition="below">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+        
+        <button mat-button [matMenuTriggerFor]="editionMenu">Edition</button>
+        <mat-menu #editionMenu="matMenu" yPosition="below">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+        
+        <button mat-button [matMenuTriggerFor]="actionMenu">Actions</button>
+        <mat-menu #actionMenu="matMenu" yPosition="below">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+        
+        
+        <button mat-button [matMenuTriggerFor]="infoMenu">Infos</button>
+        <mat-menu #infoMenu="matMenu" yPosition="below">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+
+        <button mat-button [matMenuTriggerFor]="aideMenu">Aide</button>
+        <mat-menu #aideMenu="matMenu" yPosition="below">
+          <button mat-menu-item>Item 1</button>
+          <button mat-menu-item>Item 2</button>
+        </mat-menu>
+</header>
+<section>
+    <div class="roww-test">
+        <div class="form-inline">
+            <label for="numSocieter">n0 societer:</label>
+            <input  id="societer"  name="societer">
+        </div>
+        
+    </div>   
+        <div class="clumn-class">
+            <div class="raison-sociale">
+                <label for="raison">Raison sociale:</label>
+                <input  id="raison"  name="raison">
+                <input  id="raison"  name="raison">
+            </div>   
+            <div class="part-one">
+                <button mat-raised-button>Click me!</button>
+                <label for="NomAbreger">Nom abreger:</label>
+                <input  id="NomAbreger"  name="NomAbreger"> 
+            </div>
+            <div class="societer-groupe">
+                <label for="SocieterGroupe">Societe Groupe:</label>
+                <input  id="SocieterGroupe"  name="SocieterGroupe"> 
+            </div>  
+        </div>              
+</section>
+<section>
+    <label>test</label>
+</section>

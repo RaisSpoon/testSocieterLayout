@@ -1,0 +1,66 @@
+.form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    position: absolute;
+  
+  }
+  .form-inline input{
+    margin: 0px 0px 0px 5px;
+    
+}
+.clumn-class{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+  .raison-sociale {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 5px 5px 5px 300px ;
+    padding: 10px;
+   
+  
+  }
+  .raison-sociale input {  
+    margin: 0px 0px 0px 10px ;
+  }
+  .nom-abreger {
+    display: flex;
+    flex-flow: row wrap;
+   /* align-items: center;*/
+    margin: 0px 0px 0px 0px ;
+    padding: 10px;
+  }
+ .nom-abreger input { 
+   margin: 0px 0px 0px 10px ;
+   
+  }
+
+  .societer-groupe {
+    display: flex;
+    flex-flow: row wrap;
+   /* align-items: center;*/
+    margin: 0px 0px 0px 300px ;
+    padding: 10px;
+  }
+ .societer-groupe input { 
+   margin: 0px 0px 0px 10px ;
+   
+  }
+
+  .part-one{
+    margin: 10px 0px 0px 5px ;
+  }
+
+  .part-one label{
+    margin: 0px 0px 0px 215px ;
+  }
+
+  .part-one input{
+    margin: 0px 0px 0px 10px ;
+  }
