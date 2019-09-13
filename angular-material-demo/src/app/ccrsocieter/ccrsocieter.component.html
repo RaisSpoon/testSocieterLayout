@@ -1,4 +1,4 @@
-<header>
+<header class="menu-css">
         <button mat-button [matMenuTriggerFor]="fichierMenu">Fichier</button>
         <mat-menu #fichierMenu="matMenu" yPosition="below">
           <button mat-menu-item>Item 1</button>
@@ -30,31 +30,220 @@
           <button mat-menu-item>Item 2</button>
         </mat-menu>
 </header>
-<section>
-    <div class="roww-test">
+
+
+<section class="section-header">    
+    <form action="">
+        <p class="full-width-border">
+            <label for="numSocieter">n0 société:</label>
+            <input  id="societer"  name="societer">
+
+            
+          </p>
+          <button mat-raised-button>Afficher</button>
+
+        <p class="full-width">
+            <label for="">Raison sociale:</label>
+            <input type="text">
+        </p>
+
+        <p class="full-width">
+            <label for="">Nom abrégé:</label>
+            <input type="text">
+        </p>
+        <p class="full-width">
+            <label for="">Société Groupe:</label>
+            <input type="text">
+        </p>
+
+      </form>
+  <!-- <div class="roww-test">
         <div class="form-inline">
-            <label for="numSocieter">n0 societer:</label>
+            <label for="numSocieter">n0 société:</label>
             <input  id="societer"  name="societer">
         </div>
         
     </div>   
-        <div class="clumn-class">
-            <div class="raison-sociale">
-                <label for="raison">Raison sociale:</label>
-                <input  id="raison"  name="raison">
-                <input  id="raison"  name="raison">
-            </div>   
-            <div class="part-one">
-                <button mat-raised-button>Click me!</button>
-                <label for="NomAbreger">Nom abreger:</label>
-                <input  id="NomAbreger"  name="NomAbreger"> 
-            </div>
-            <div class="societer-groupe">
-                <label for="SocieterGroupe">Societe Groupe:</label>
-                <input  id="SocieterGroupe"  name="SocieterGroupe"> 
-            </div>  
-        </div>              
+  
+    <div class="raison-sociale">
+        <label for="raison">Raison sociale:</label>
+        <input  id="raison"  name="raison">
+        <input  id="raison"  name="raison">
+      </div> 
+
+      <div class="part-one">
+          <button mat-raised-button>Afficher</button>
+          <label for="NomAbreger">Nom abrégé:</label>
+          <input  id="NomAbreger"  name="NomAbreger"> 
+      </div>
+
+      <div class="societer-groupe">
+          <label for="SocieterGroupe">Société Groupe:</label>
+          <input  id="SocieterGroupe"  name="SocieterGroupe"> 
+      </div>  
+      --> 
+                 
 </section>
-<section>
-    <label>test</label>
+<section class="section">
+    
+    
+
+
+  <form action="">
+    <p>
+      <label for="">Pays de siège:</label>
+      <input type="text">
+    </p>
+    <p>
+      <label for="">Ville:</label>
+      <input type="text">
+    </p>
+
+    <p>
+      <label for="">Nature:</label>
+      <input type="text">
+    </p>
+    <p>
+      <label for="">Activité:</label>
+      <input type="text">
+    </p>
+
+    <p>
+      <label for="">Activité 2:</label>
+      <input type="text">
+    </p>
+    <p>
+      <label for="">Activité 3:</label>
+      <input type="text">
+    </p>
+
+    <p>
+      <label for="">Type juridique:</label>
+      <input type="text">
+    </p>
+    <p>
+      <label for="">Etat:</label>
+      <input type="text">
+    </p>
+
+    <p>
+      <label for="">Fusion le:</label>
+      <input type="text">
+    </p>
+    <p>
+      <label for="">Absorbée par</label>
+      <input type="text">
+    </p>
+
+    <p>
+      <label for="">société mère:</label>
+      <input type="text">
+    </p>
+    <p>
+      <label for="">Nat.Relat.:</label>
+      <input type="text">
+    </p>
+
+    <p class="full-width">
+      <label for="">Ancien nom:</label>
+      <input type="text">
+    </p>
+
+    <p>
+      <label for="">code FFSA:</label>
+      <input type="text">
+
+      <label class= "separete-four" for="">Code RINET:</label>
+      <input type="text">
+    </p>
+    <p>
+      <label for="">Référence CODA:</label>
+      <input type="text">
+
+      <label class= "separete-four" for="">Référence Ulis:</label>
+      <input type="text">
+    </p>
+
+    <p class="full-width">
+        <label for="">Crit. recherche:</label>
+        <input type="text">
+    </p>
+    <p class="full-width">
+        <label for="">Commentaires:</label>
+        <input type="text">
+    </p>
+  
+  </form>
+ 
+</section>
+
+<section class="section">
+
+<mat-card class="panel-one">
+    <mat-card-header class="header-css">
+       <mat-card-title class="header-style">Informations Solvabilite 2</mat-card-title>
+    </mat-card-header>
+   
+    <mat-card-content class="content-css">
+        <form action="">
+            <p>
+              <label for="">Activité courtier:</label>
+              <input type="text">
+            </p>
+            <p>
+              <label for="">Type de rétrocessionnaire:</label>
+              <input type="text">
+            </p>
+        
+            <p>
+              <label for="">Code EIOPA:</label>
+              <input type="text">
+            </p>
+            <p>
+              <label for="">Libellé EIOPA:</label>
+              <input type="text">
+            </p>
+        
+            <p>
+              <label for="">Agence de notation 1:</label>
+              <input type="text">
+            </p>
+            <p>
+              <label for="">Notation Rétrocessionnaire 1:</label>
+              <input type="text">
+
+              <label class= "separete-four" for="">Date notation 1:</label>
+              <input type="text">
+            </p>
+
+            <p>
+                <label for="">Agence de notation 2:</label>
+                <input type="text">
+              </p>
+              <p>
+                <label for="">Notation Rétrocessionnaire 2:</label>
+                <input type="text">
+  
+                <label class= "separete-four" for="">Date notation 2:</label>
+                <input type="text">
+              </p>
+
+              <p>
+                  <label for="">Agence de notation 3:</label>
+                  <input type="text">
+                </p>
+                <p>
+                  <label for="">Notation Rétrocessionnaire 3:</label>
+                  <input type="text">
+    
+                  <label class= "separete-four" for="">Date notation 3:</label>
+                  <input type="text">
+                </p>
+        
+            
+          
+          </form>
+    </mat-card-content>
+   
+  </mat-card>
 </section>

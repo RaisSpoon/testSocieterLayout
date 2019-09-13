@@ -1,3 +1,7 @@
+/*.menu-css{
+  padding: 20px;
+}
+
 .form-inline {  
     display: flex;
     flex-flow: row wrap;
@@ -9,6 +13,10 @@
   
   }
   .form-inline input{
+    border: 1px solid #130654;
+  border-left: 3px solid;
+  border-radius: 5px;
+  transition: border-color .5s ease-out;
     margin: 0px 0px 0px 5px;
     
 }
@@ -28,32 +36,54 @@
   }
   .raison-sociale input {  
     margin: 0px 0px 0px 10px ;
+    border: 1px solid #130654;
+  border-left: 3px solid;
+  border-radius: 5px;
+  transition: border-color .5s ease-out;
+  }*/
+
+ /* .raison-sociale input:optional {
+    border-left-color: #999;
   }
-  .nom-abreger {
+  .raison-sociale input:required {
+    border-left-color: palegreen;
+  }
+  .raison-sociale input:invalid {
+    border-left-color: salmon;
+  }*/
+  /* .nom-abreger {
     display: flex;
     flex-flow: row wrap;
-   /* align-items: center;*/
+   align-items: center;
     margin: 0px 0px 0px 0px ;
     padding: 10px;
-  }
- .nom-abreger input { 
-   margin: 0px 0px 0px 10px ;
+  }*/
+/* .nom-abreger input { 
+   margin: 0px 0px 0px 500px ;
    
-  }
+  }*/
 
-  .societer-groupe {
+ /* .societer-groupe {
     display: flex;
     flex-flow: row wrap;
-   /* align-items: center;*/
+   
     margin: 0px 0px 0px 300px ;
     padding: 10px;
   }
  .societer-groupe input { 
+  border: 1px solid #130654;
+  border-left: 3px solid;
+  border-radius: 5px;
+  transition: border-color .5s ease-out;
    margin: 0px 0px 0px 10px ;
    
   }
 
   .part-one{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+   padding: 10px;
     margin: 10px 0px 0px 5px ;
   }
 
@@ -62,5 +92,81 @@
   }
 
   .part-one input{
+    border: 1px solid #130654;
+  border-left: 3px solid;
+  border-radius: 5px;
+  transition: border-color .5s ease-out;
     margin: 0px 0px 0px 10px ;
   }
+*/
+
+/*  .labelInputArea 
+{
+    display:block;
+    padding-top:5px;
+}
+.labelInputArea label
+{
+    width:150px;
+    display:inline-block;
+}
+
+.labelInputArea input
+{
+    vertical-align:top;
+}*/
+.section{
+margin: 50px;
+}
+.section-header{
+  margin: 30px 50px 50px 50px;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+form label {
+  width:150px;
+  display:inline-block;
+}
+form p {
+  margin: 0;
+}
+form input{
+  border: 1px solid #130654;
+  border-left: 3px solid;
+  border-radius: 5px;
+  transition: border-color .5s ease-out;
+}
+
+.full-width {
+  grid-column: 1 / 3;
+}
+.full-width-border{
+  border: 1px solid #ccc; 
+    padding: 5px;
+   
+}
+
+.separete-four{
+  margin: 0px 0px 0px 40px;
+}
+
+/*panel css*/
+
+.header-css{
+  background-color: #292D5A;
+  
+  margin: 5px 5px 5px 5px;
+}
+
+.header-style{
+  padding: 5px;
+  color: white;
+}
+
+.content-css{
+  margin: 20px 0px 0px 0px;
+  
+}
