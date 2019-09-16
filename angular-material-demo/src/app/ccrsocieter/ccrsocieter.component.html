@@ -36,149 +36,125 @@
     <form action="">
         <p class="full-width-border">
             <label for="numSocieter">n0 société:</label>
-            <input  id="societer"  name="societer">
-
-            
+            <input id="SOI5SOCIET" id="societer"  name="societer">
           </p>
           <button mat-raised-button>Afficher</button>
 
         <p class="full-width">
             <label for="">Raison sociale:</label>
-            <input type="text">
+            <input id="SOLLSOCIE1" size = "75" type="text">
+            <input id="SOLLSOCIE2" class="racial" size = "75" type="text" >
         </p>
 
         <p class="full-width">
             <label for="">Nom abrégé:</label>
-            <input type="text">
+            <input id="SOLMSOCIET" size = "60" type="text">
         </p>
         <p class="full-width">
             <label for="">Société Groupe:</label>
-            <input type="text">
+            <input id="CALAIDSOCA" size = "100" type="text">
         </p>
 
-      </form>
-  <!-- <div class="roww-test">
-        <div class="form-inline">
-            <label for="numSocieter">n0 société:</label>
-            <input  id="societer"  name="societer">
-        </div>
-        
-    </div>   
-  
-    <div class="raison-sociale">
-        <label for="raison">Raison sociale:</label>
-        <input  id="raison"  name="raison">
-        <input  id="raison"  name="raison">
-      </div> 
-
-      <div class="part-one">
-          <button mat-raised-button>Afficher</button>
-          <label for="NomAbreger">Nom abrégé:</label>
-          <input  id="NomAbreger"  name="NomAbreger"> 
-      </div>
-
-      <div class="societer-groupe">
-          <label for="SocieterGroupe">Société Groupe:</label>
-          <input  id="SocieterGroupe"  name="SocieterGroupe"> 
-      </div>  
-      --> 
-                 
+      </form>               
 </section>
+
 <section class="section">
-    
-    
-
-
   <form action="">
     <p>
       <label for="">Pays de siège:</label>
-      <input type="text">
+      <input id="SOC2PAYSOC" size = "5" type="text">
+      <input id="SOC2PAYSOCST"  type="hidden">
     </p>
     <p>
       <label for="">Ville:</label>
-      <input type="text">
+      <input id="SOLMVILSOC" size = "50" type="text">
     </p>
 
     <p>
       <label for="">Nature:</label>
-      <input type="text">
+      <input id="SOC2NATSOC" size = "5" type="text">
+      <input id="SOC2NATSOCST"  type="hidden">
     </p>
     <p>
       <label for="">Activité:</label>
-      <input type="text">
+      <input id="SOC2ACTSOC" size = "5" type="text">
+      <input id="SOC2ACTSOCST"  type="hidden">
     </p>
 
     <p>
       <label for="">Activité 2:</label>
-      <input type="text">
+      <input id="SOC2ACTSO2" size = "5" type="text">
+      <input id="SOC2ACTSO2ST"  type="hidden">
     </p>
     <p>
       <label for="">Activité 3:</label>
-      <input type="text">
+      <input id="SOC2ACTSO3" size = "5" type="text">
+      <input id="SOC2ACTSO3ST"  type="hidden">
     </p>
 
     <p>
       <label for="">Type juridique:</label>
-      <input type="text">
+      <input id="SOC2TYPJUR" size = "5" type="text">
+      <input id="SOC2TYPJURST"  type="hidden">
     </p>
     <p>
       <label for="">Etat:</label>
-      <input type="text">
+      <input id="SOC1ETASOC" type="text">
     </p>
 
     <p>
       <label for="">Fusion le:</label>
-      <input type="text">
+      <input id="SODTSOCFUS" type="date">
     </p>
     <p>
       <label for="">Absorbée par</label>
-      <input type="text">
+      <input id="SOI5SOCFUS" size = "15" type="text">
+      <input id="SOI5SOCFUSST"  type="hidden">
     </p>
 
     <p>
       <label for="">société mère:</label>
-      <input type="text">
+      <input id="SOI5SOCGRP" size = "15" type="text">
+      <input id="SOI5SOCGRPST"  type="hidden">
     </p>
     <p>
       <label for="">Nat.Relat.:</label>
-      <input type="text">
+      <input id="SOC1TYPAPP" size = "5" type="text">
+      <input id="SOC1TYPAPPST"  type="hidden">
     </p>
 
     <p class="full-width">
       <label for="">Ancien nom:</label>
-      <input type="text">
+      <input id="SOLESOCANM" size="150" type="text">
     </p>
 
     <p>
       <label for="">code FFSA:</label>
-      <input type="text">
+      <input id="SOC4SOCFFS" type="text">
 
       <label class= "separete-four" for="">Code RINET:</label>
-      <input type="text">
+      <input id="SOCASOCRIN" type="text">
     </p>
     <p>
       <label for="">Référence CODA:</label>
-      <input type="text">
+      <input id="SOCCREFCOD" type="text">
 
       <label class= "separete-four" for="">Référence Ulis:</label>
-      <input type="text">
+      <input id="SOC8REFULI" type="text">
     </p>
 
     <p class="full-width">
         <label for="">Crit. recherche:</label>
-        <input type="text">
+        <input id="SOLLCRIREC" size="150" type="text">
     </p>
     <p class="full-width">
         <label for="">Commentaires:</label>
-        <input type="text">
+        <input id="SOTTCOMSOC" size="150" type="text">
     </p>
-  
   </form>
- 
 </section>
 
 <section class="section">
-
 <mat-card class="panel-one">
     <mat-card-header class="header-css">
        <mat-card-title class="header-style">Informations Solvabilite 2</mat-card-title>
@@ -188,62 +164,125 @@
         <form action="">
             <p>
               <label for="">Activité courtier:</label>
-              <input type="text">
+              <input id="SOC1ACTCOU" size = "5" type="text">
             </p>
             <p>
               <label for="">Type de rétrocessionnaire:</label>
-              <input type="text">
+              <input id="SOC3TYPRET" size = "15" type="text">
             </p>
         
             <p>
               <label for="">Code EIOPA:</label>
-              <input type="text">
+              <input id="SOI5EIOPAC" size = "15"  type="text">
             </p>
             <p>
               <label for="">Libellé EIOPA:</label>
-              <input type="text">
+              <input id="SOLLIEOPAC" size = "50" type="text">
             </p>
         
             <p>
               <label for="">Agence de notation 1:</label>
-              <input type="text">
+              <input id="SOLMAGENC1" type="text">
             </p>
             <p>
               <label for="">Notation Rétrocessionnaire 1:</label>
-              <input type="text">
+              <input id="SOLMNOTAT1" size = "15"  type="text">
 
               <label class= "separete-four" for="">Date notation 1:</label>
-              <input type="text">
+              <input id="SODTNOTAT1" type="date">
             </p>
 
             <p>
                 <label for="">Agence de notation 2:</label>
-                <input type="text">
+                <input id="SOLMAGENC2" type="text">
               </p>
               <p>
                 <label for="">Notation Rétrocessionnaire 2:</label>
-                <input type="text">
+                <input id="SOLMNOTAT2" size = "15"  type="text">
   
                 <label class= "separete-four" for="">Date notation 2:</label>
-                <input type="text">
+                <input id="SODTNOTAT2" type="date">
               </p>
 
               <p>
                   <label for="">Agence de notation 3:</label>
-                  <input type="text">
+                  <input id="SOLMAGENC3" type="text">
                 </p>
                 <p>
                   <label for="">Notation Rétrocessionnaire 3:</label>
-                  <input type="text">
+                  <input id="SOLMNOTAT3" size = "15"  type="text">
     
                   <label class= "separete-four" for="">Date notation 3:</label>
-                  <input type="text">
+                  <input id="SODTNOTAT3" type="date">
                 </p>
-        
-            
-          
           </form>
     </mat-card-content>
-   
   </mat-card>
+</section>
+
+<!-- TAB section-->
+<section class="section">
+  <mat-tab-group>
+
+<mat-tab label="Address">
+        <mat-card-content class="content-css">
+                <form action="">
+            <p class="full-width"> 
+                    <label for="">Adresse ligne 1:</label>
+                    <input id="ADVTADRLIG" type="text" size="150">
+                  </p>
+                      
+                  
+                  <p class="full-width">
+                    <label for="">Adresse ligne 2:</label>
+                    <input id="ADV" type="text" size="150">
+                  </p>
+
+                  <p class="full-width">
+                    <label for="">Adresse ligne 3:</label>
+                    <input id="ADVTADRLI3" type="text" size="150">
+                  </p>
+
+                  <p class="full-width">
+                      <label for="">Adresse ligne 4:</label>
+                      <input id="ADVTADRLI4" type="text" size="150">
+                  </p>
+
+                  <p class="full-width">
+                      <label for="">Adresse ligne 5:</label>
+                      <input id="ADVTADRLI5" type="text" size="150">
+                  </p>
+
+                  <p>
+                      <label for="">Ville:</label>
+                      <input id="ADVLVILADR" type="text" size = "50" >
+                  </p>
+                  <p>
+                      <label for="">Pays:</label>
+                      <input id="ADC2PAYSZZ" type="text" size="5" >
+                      <input id="ADC2PAYSZZST"  type="hidden">
+                  </p>
+      
+                  <p>
+                      <label for="">Code postal:</label>
+                      <input id="ADVMCODPOS" type="text">
+                  </p>
+                  <p>
+                      <label for="">Cedex:</label>
+                      <input id="ADVMCEDEXZ" type="text">
+                  </p>
+      
+                  <p class="full-width">
+                      <label for="">Complément:</label>
+                      <input id="ADVLPROVIN" type="text" size="100">
+                  </p>   
+        
+                </form>
+                </mat-card-content>
+    </mat-tab>
+   
+    <mat-tab label="Contacts">2</mat-tab>
+    <mat-tab label="Comptes">3</mat-tab>
+
+</mat-tab-group>
 </section>

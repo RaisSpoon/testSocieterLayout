@@ -148,6 +148,11 @@ form input{
     padding: 5px;
    
 }
+/*input style and size for all field*/
+.racial{
+  margin: 0px 0px 0px 15px;
+}
+/* END -- input style and size for all field*/
 
 .separete-four{
   margin: 0px 0px 0px 40px;
